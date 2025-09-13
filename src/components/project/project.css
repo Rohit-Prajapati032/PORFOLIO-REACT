@@ -1,0 +1,38 @@
+.project h1,
+.project1 h1 {
+  font-family: "Dancing Script", cursive;
+}
+.orangeColor {
+  color: orange;
+}
+
+.bg-orange {
+  background-color: rgba(246, 176, 47, 0.995);
+}
+
+.projectBtn {
+  border: 1px solid orange;
+  padding: 10px 15px 10px 15px;
+  /* height: 3em;
+    width: 12em; */
+}
+
+.projectBtn:hover {
+  background-color: orange;
+  transition: 0.5s ease-in;
+}
+
+.projectsLink {
+  text-decoration: none !important;
+  color: orange !important;
+}
+
+.projectsLink:hover {
+  color: white !important;
+}
+
+.headdingHover:hover {
+  text-decoration: underline solid orange 3px;
+  text-underline-offset: 12px;
+  cursor: pointer;
+}

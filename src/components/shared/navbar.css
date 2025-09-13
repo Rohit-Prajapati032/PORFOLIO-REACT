@@ -1,0 +1,19 @@
+.orangeColor{
+  color: orange;
+
+}
+.navLink {
+  color: orange;
+}
+.navLink:hover {
+  text-decoration: underline solid orange 3px;
+  text-underline-offset: 6px;
+}
+
+.hameburger {
+  display: none;
+}
+
+/* media query  */
+
+

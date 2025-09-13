@@ -1,0 +1,46 @@
+.about h1 {
+  font-family: "Dancing Script", cursive;
+}
+.about img {
+  width: 20em;
+  height: 20em;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgb(121, 120, 117);
+}
+.ourTeam h1 {
+  font-family: "Dancing Script", cursive;
+}
+
+.card-body img {
+  /* min-width: 200px; */
+  max-height: 200px;
+}
+.aboutBtn{
+    border: 1px solid orange;
+    padding:10px 15px 10px 15px;
+    color: orange !important;
+    /* height: 3em;
+    width: 12em; */
+ }
+
+ .aboutBtn:hover{
+    background-color: orange;
+    transition: 0.4s ease-in;
+    color: white !important;
+ }
+
+@media (max-width: 768px) {
+  .img-thumbnail {
+    margin-right: 6em;
+  }
+}
+@media (max-width: 576px) {
+  .img-thumbnail {
+    margin-right: 4em;
+  }
+}
+@media (max-width: 460px) {
+  .img-thumbnail {
+    margin-right: 2em;
+  }
+}

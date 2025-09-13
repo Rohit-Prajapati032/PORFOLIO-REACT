@@ -1,0 +1,37 @@
+.contect h1{
+    font-family: "Dancing Script", cursive;
+
+}
+.colorOrange{
+    color: orange;
+}
+.contect img{
+width: 20em;
+}
+
+.contectBtn{
+    border: 1px solid orange;
+    padding:10px 15px 10px 15px;
+ }
+
+ .contecttBtn:hover{
+    background-color: orange;
+    transition: 0.4s ease-in;
+ }
+
+@media (max-width: 768px) {
+  .cont-img{
+    margin-right: 6em;
+  }
+ 
+}
+@media (max-width: 576px) {
+  .cont-img{
+    margin-right: 4em;
+  }
+}
+@media (max-width: 460px) {
+  .cont-img{
+    margin-right: 2em;
+  }
+}
